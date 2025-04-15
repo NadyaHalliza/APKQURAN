@@ -10,7 +10,7 @@ import data.QuranApiService
 
 
 object RetrofitClient {
-    private const val BASE_URL = "https://api.alquran.cloud/v1/"
+    private const val BASE_URL = "https://api.alquran.cloud/v1/" //ganti api lagi T_T
 
     private val loggingInterceptor = HttpLoggingInterceptor().apply {
         level = HttpLoggingInterceptor.Level.BODY
