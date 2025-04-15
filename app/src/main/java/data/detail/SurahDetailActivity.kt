@@ -1,4 +1,5 @@
 package data.detail
+// Update test dari Ghilman
 
 import android.os.Bundle
 import androidx.activity.viewModels
