@@ -27,6 +27,8 @@
             </intent-filter>
         </activity>
 
+
+
         <!-- 👇 Tambahkan ini DI DALAM tag <application> -->
         <activity android:name="data.detail.SurahDetailActivity" />
 
