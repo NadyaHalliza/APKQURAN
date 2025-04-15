@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme -->
+    <style name="Theme.ALQURAN" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary color -->
+        <item name="colorPrimary">#1565C0</item> <!-- Biru tua -->
+        <item name="colorPrimaryVariant">#0D47A1</item> <!-- Lebih gelap -->
+        <item name="colorOnPrimary">#FFFFFF</item> <!-- Warna teks di atas primary -->
+
+        <!-- Secondary color -->
+        <item name="colorSecondary">#29B6F6</item> <!-- Biru muda -->
+        <item name="colorSecondaryVariant">#0288D1</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+
+        <!-- Background and surface -->
+        <item name="android:windowBackground">#F3F7FB</item> <!-- Latar belakang terang -->
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">#212121</item>
+
+        <!-- Error color -->
+        <item name="colorError">#D32F2F</item>
+        <item name="colorOnError">#FFFFFF</item>
+
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">#0D47A1</item>
+        <item name="android:textColorSecondary">#1565C0</item>
+
+        <!-- Optional: status bar -->
+        <item name="android:statusBarColor">#0D47A1</item>
+        <item name="android:navigationBarColor">#0D47A1</item>
+    </style>
+
+</resources>
