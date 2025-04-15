@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Warna utama -->
+    <color name="colorPrimary">#2196F3</color> <!-- Biru Cerah -->
+    <color name="colorPrimaryDark">#1976D2</color> <!-- Biru Tua -->
+    <color name="colorAccent">#03A9F4</color> <!-- Biru Muda / Aksen -->
+
+    <!-- Warna latar dan teks -->
+    <color name="colorBackground">#E3F2FD</color> <!-- Latar lembut -->
+    <color name="colorCard">#BBDEFB</color> <!-- Warna kartu -->
+    <color name="colorTextPrimary">#0D47A1</color> <!-- Teks utama -->
+    <color name="colorTextSecondary">#546E7A</color> <!-- Teks sekunder -->
+
+    <!-- Warna tambahan -->
+    <color name="colorDivider">#90CAF9</color>
+    <color name="colorSurface">#F5F5F5</color>
+</resources>

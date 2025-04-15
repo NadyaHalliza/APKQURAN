@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ALQURAN</string>
+    <string name="fetching_surah">Fetching Surah...</string>
+</resources>
