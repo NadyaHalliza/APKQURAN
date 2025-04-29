@@ -45,7 +45,7 @@ class LoginActivity : AppCompatActivity() {
             .build()
         googleSignInClient = GoogleSignIn.getClient(this, gso)
 
-        binding.btnLogin.setOnClickListener {
+        binding.btnLoginConfirm.setOnClickListener {
             val signInIntent = googleSignInClient.signInIntent
             signInLauncher.launch(signInIntent)
         }

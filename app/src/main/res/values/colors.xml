@@ -14,4 +14,6 @@
     <!-- Warna tambahan -->
     <color name="colorDivider">#90CAF9</color>
     <color name="colorSurface">#F5F5F5</color>
+    <color name="teal_700">#018786</color>
+
 </resources>

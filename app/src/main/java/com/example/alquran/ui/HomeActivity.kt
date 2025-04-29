@@ -21,21 +21,24 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
-        logoutButton = findViewById(R.id.btnLogout)
+            val btnLogin = findViewById<Button>(R.id.btn_login)    // Pindah ke LoginActivity
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+            finish() // Biar HomeActivity nggak bisa balik
 
-        userViewModel = ViewModelProvider(this)[UserViewModel::class.java]
+            userViewModel = ViewModelProvider(this)[UserViewModel::class.java]
 
-        val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-            .requestEmail()
-            .build()
-        googleSignInClient = GoogleSignIn.getClient(this, gso)
+            val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                .requestEmail()
+                .build()
+            googleSignInClient = GoogleSignIn.getClient(this, gso)
 
-        logoutButton.setOnClickListener {
-            googleSignInClient.signOut().addOnCompleteListener {
-                userViewModel.clearUser()
-                startActivity(Intent(this, LoginActivity::class.java))
-                finish()
+            logoutButton.setOnClickListener {
+                googleSignInClient.signOut().addOnCompleteListener {
+                    userViewModel.clearUser()
+                    startActivity(Intent(this, LoginActivity::class.java))
+                    finish()
+                }
             }
-        }
     }
 }

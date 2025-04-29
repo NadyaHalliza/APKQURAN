@@ -15,22 +15,23 @@
         android:theme="@style/Theme.ALQURAN"
         tools:targetApi="31">
 
-        <!-- ACTIVITY PERTAMA -->
+        <!-- 🚀 Set HomeActivity sebagai launcher (activity pertama dibuka) -->
         <activity
-            android:name="ui.surah.SurahActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.ALQURAN">
+            android:name=".ui.HomeActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
+        <!-- 👉 Tambahkan LoginActivity -->
+        <activity android:name=".ui.LoginActivity" />
 
+        <!-- 🕌 SurahActivity tetap ada untuk daftar surah -->
+        <activity android:name=".ui.SurahActivity" />
 
-
-        <!-- 👇 Tambahkan ini DI DALAM tag <application> -->
+        <!-- 📖 Detail Surah (kalau user klik surah) -->
         <activity android:name=".data.detail.SurahDetailActivity" />
 
     </application>

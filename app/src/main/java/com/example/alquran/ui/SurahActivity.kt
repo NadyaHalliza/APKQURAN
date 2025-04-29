@@ -1,4 +1,4 @@
-package ui.surah
+package com.example.alquran.ui
 
 import android.content.Intent
 import android.os.Bundle
