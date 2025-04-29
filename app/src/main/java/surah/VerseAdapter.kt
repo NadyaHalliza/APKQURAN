@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.alquran.databinding.ItemVerseBinding
-import data.model.Verse
+import com.example.alquran.data.model.Verse
 
 class VerseAdapter : RecyclerView.Adapter<VerseAdapter.VerseViewHolder>() {
 

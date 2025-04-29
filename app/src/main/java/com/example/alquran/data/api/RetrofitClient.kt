@@ -1,11 +1,11 @@
-package data.api
+package com.example.alquran.data.api
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
-import data.QuranApiService
+import com.example.alquran.data.QuranApiService
 
 
 

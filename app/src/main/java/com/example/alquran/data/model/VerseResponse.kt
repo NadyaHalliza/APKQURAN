@@ -1,7 +1,7 @@
-package data.model
+package com.example.alquran.data.model
 
 data class VerseResponse(
-    val verses: List<data.model.Verse>
+    val verses: List<Verse>
 )
 
 data class Translation(

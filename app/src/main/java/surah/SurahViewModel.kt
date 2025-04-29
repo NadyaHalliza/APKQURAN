@@ -6,15 +6,15 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import Repository
 import model.SurahDetailResponse
-import data.model.Verse
+import com.example.alquran.data.model.Verse
 import kotlinx.coroutines.launch
 import model.Surah
 import model.SurahDetail
 
 class SurahViewModel(private val repository: Repository) : ViewModel() {
 
-    private val _verses = MutableLiveData<List<data.model.Verse>>()
-    val verses: LiveData<List<data.model.Verse>> get() = _verses
+    private val _verses = MutableLiveData<List<Verse>>()
+    val verses: LiveData<List<Verse>> get() = _verses
 
     fun fetchVerses(surahId: Int) {
         viewModelScope.launch {

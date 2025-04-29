@@ -31,7 +31,7 @@
 
 
         <!-- 👇 Tambahkan ini DI DALAM tag <application> -->
-        <activity android:name="data.detail.SurahDetailActivity" />
+        <activity android:name=".data.detail.SurahDetailActivity" />
 
     </application>
 

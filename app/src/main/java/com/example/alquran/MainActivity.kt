@@ -5,7 +5,7 @@ import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import com.example.alquran.databinding.ActivityMainBinding
-import data.api.RetrofitClient
+import com.example.alquran.data.api.RetrofitClient
 import kotlinx.coroutines.launch
 import model.SurahResponse
 

@@ -1,4 +1,4 @@
-package data
+package com.example.alquran.data
 
 import model.SurahResponse
 import model.SurahDetailResponse

@@ -1,5 +1,7 @@
 package model
 
+import com.example.alquran.data.model.Verse
+
 data class SurahDetailResponse(
     val code: Int,
     val status: String,
@@ -13,5 +15,5 @@ data class SurahDetail(
     val englishNameTranslation: String,
     val numberOfAyahs: Int,
     val revelationType: String,
-    val ayahs: List<data.model.Verse> // pakai Verse dari data.model
+    val ayahs: List<Verse> // pakai Verse dari data.model
 )

@@ -1,4 +1,4 @@
-package data.detail
+package com.example.alquran.data.detail
 // Update test dari Ghilman
 
 import android.os.Bundle
@@ -10,7 +10,7 @@ import Repository
 import ui.surah.SurahViewModel
 import ui.surah.SurahViewModelFactory
 import surah.VerseAdapter
-import data.api.RetrofitClient
+import com.example.alquran.data.api.RetrofitClient
 import com.example.alquran.R
 
 class SurahDetailActivity : AppCompatActivity() {

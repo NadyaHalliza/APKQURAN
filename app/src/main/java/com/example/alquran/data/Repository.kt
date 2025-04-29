@@ -1,4 +1,4 @@
-import data.QuranApiService
+import com.example.alquran.data.QuranApiService
 import model.SurahDetailResponse
 import model.SurahResponse
 

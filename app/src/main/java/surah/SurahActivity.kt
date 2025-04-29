@@ -7,8 +7,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.alquran.databinding.ActivitySurahBinding
 import Repository
-import data.detail.SurahDetailActivity
-import data.api.RetrofitClient
+import com.example.alquran.data.detail.SurahDetailActivity
+import com.example.alquran.data.api.RetrofitClient
 import ui.surah.SurahAdapter
 import ui.surah.SurahViewModel
 import ui.surah.SurahViewModelFactory
